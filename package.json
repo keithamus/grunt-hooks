@@ -1,0 +1,40 @@
+{
+  "name": "grunt-hooks",
+  "description": "SCM Hook management",
+  "version": "0.1.0",
+  "homepage": "https://github.com/keithamus/grunt-hooks",
+  "author": {
+    "name": "Keith Cirkel",
+    "email": "github@keithcirkel.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keithamus/grunt-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keithamus/grunt-hooks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://keithamus.mit-license.org"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-hooks",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.9"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.9"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
